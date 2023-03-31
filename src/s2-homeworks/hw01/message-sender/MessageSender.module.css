@@ -1,18 +1,66 @@
 .sendForm {
-
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2.75rem;
+    row-gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .textarea {
+    resize: none;
+    overflow: hidden;
+    border: none;
+    font-size: 0.875rem;
+    padding: 0.8571428571428571em 1.714285714285714em;
+    background-color: #F5F7FB;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 20px;
+    flex: 1 1 auto;
+}
 
+.textarea:focus {
+    outline: 2px solid #0066CC;
 }
 
 .button {
-
+    background-color: #0066CC;
+    color: #fff;
+    border-radius: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 0 2.375em;
+    border: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
 .button:hover {
-
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: #055db6;
 }
-.button:active {
 
+.button:active {
+    -webkit-transform: translate(1px, 1px);
+    -moz-transform: translate(1px, 1px);
+    -ms-transform: translate(1px, 1px);
+    -o-transform: translate(1px, 1px);
+    transform: translate(1px, 1px);
+}
+
+@media (max-width: 47.99875em) {
+    button {
+        flex: 0 1 100%;
+    }
+}
+
+@media (min-width: 47.99875em) {
+    .sendForm {
+
+    }
 }
