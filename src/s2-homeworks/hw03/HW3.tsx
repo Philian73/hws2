@@ -29,7 +29,7 @@ export const pureAddUserCallback = (name: any, setUsers: any, users: any) => { /
     setUsers([...users, user])
 }
 
-const HW3 = () => {
+export const HW3: React.FC = () => {
     const [users, setUsers] = useState<any>([]) // need to fix any
 
     const addUserCallback = (name: any) => { // need to fix any
@@ -50,5 +50,3 @@ const HW3 = () => {
         </div>
     )
 }
-
-export default HW3

@@ -9,7 +9,7 @@ import Stand from './Stand'
 * 4 - сделать стили в соответствии с дизайном
 * */
 
-const HW4 = () => {
+export const HW4: React.FC = () => {
     return (
         <div id={'hw4'}>
             <div className={s2.hwTitle}>Homework #4</div>
@@ -20,5 +20,3 @@ const HW4 = () => {
         </div>
     )
 }
-
-export default HW4
