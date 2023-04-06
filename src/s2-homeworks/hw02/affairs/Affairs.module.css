@@ -54,6 +54,10 @@
     max-width: 450px;
 }
 
+.affairsNoWrap {
+    flex-direction: column;
+}
+
 @media (max-width: 47.99875em) {
     .buttonContainer {
         gap: 0.5rem;
