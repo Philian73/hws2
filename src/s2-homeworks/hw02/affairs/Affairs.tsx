@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Affair} from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
@@ -12,17 +12,27 @@ type AffairsPropsType = {
 }
 
 export const Affairs: React.FC<AffairsPropsType> = ({data, setFilter, deleteAffairCallback, filter}) => {
+   // состояние для определения того, находится ли юзер во вкладке All или в приоритетах
+   const [switcher, setSwitcher] = useState<boolean>(false)
+
+   // Функция возвращает классы в види строки в зависимости от того, передано в неё true или false
+   const allOrPriority = (bool: boolean): string => bool ? `${s.affairs} ${s.affairsNoWrap}` : s.affairs
+
    const setAll = () => {
       setFilter('all')
+      setSwitcher(false)
    }
    const setLow = () => {
       setFilter('low')
+      setSwitcher(true)
    }
    const setMiddle = () => {
       setFilter('middle')
+      setSwitcher(true)
    }
    const setHigh = () => {
       setFilter('high')
+      setSwitcher(true)
    }
 
    const cnAll = s.button + ' ' + s.all + (filter === 'all' ? ' ' + s.active : '')
@@ -70,7 +80,7 @@ export const Affairs: React.FC<AffairsPropsType> = ({data, setFilter, deleteAffa
                Middle
             </button>
          </div>
-         <div className={s.affairs}>{mappedAffairs}</div>
+         <div className={allOrPriority(switcher)}>{mappedAffairs}</div>
       </div>
    )
 }
