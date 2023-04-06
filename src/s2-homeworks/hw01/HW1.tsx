@@ -48,7 +48,7 @@ export const HW1: React.FC = () => {
    return (
       <div id={'hw1'}>
          <div className={s2.hwTitle}>Homework #1</div>
-         <div className={s2.hw}>
+         <div className={`${s2.hw} ${s2.hw_1}`}>
             {/*проверка отображения (не менять)*/}
             <div>
                <Message message={message0} />

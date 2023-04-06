@@ -9,7 +9,15 @@
 
 .hw {
     position: relative;
+    margin-bottom: 2.3125rem;
+}
+
+.hw_1 {
     padding: 1.5rem 4.375rem;
+}
+
+.hw_2 {
+    padding: 2rem 4.375rem 4.5625rem 4.3754rem;
 }
 
 .hw::before,

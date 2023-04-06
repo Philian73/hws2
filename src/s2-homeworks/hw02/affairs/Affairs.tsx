@@ -56,18 +56,18 @@ export const Affairs: React.FC<AffairsPropsType> = ({data, setFilter, deleteAffa
                Low
             </button>
             <button
-               id={'hw2-button-middle'}
-               onClick={setMiddle}
-               className={cnMiddle}
-            >
-               Middle
-            </button>
-            <button
                id={'hw2-button-high'}
                onClick={setHigh}
                className={cnHigh}
             >
                High
+            </button>
+            <button
+               id={'hw2-button-middle'}
+               onClick={setMiddle}
+               className={cnMiddle}
+            >
+               Middle
             </button>
          </div>
          <div className={s.affairs}>{mappedAffairs}</div>
