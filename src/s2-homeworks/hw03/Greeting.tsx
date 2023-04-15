@@ -26,6 +26,9 @@ export const Greeting: React.FC<GreetingPropsType> = (
       lastUserName,
    } // деструктуризация пропсов
 ) => {
+   /**
+    * Переменная возвращает строчку с классом инпута, и если есть ошибка - класс инпута с ошибкой
+    */
    const inputClass = `${s.input} ${error ? s.errorInput : ''}`
 
    return (
