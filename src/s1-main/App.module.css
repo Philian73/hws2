@@ -4,7 +4,6 @@
     min-height: 100vh;
     margin: 0 auto;
     max-width: 71.25em;
-    font-family: Montserrat, sans-serif;
 }
 
 .hw {
@@ -22,6 +21,10 @@
 
 .hw_3 {
     padding: 1.875rem 4.375rem 13.6875rem 4.375rem;
+}
+
+.hw_4 {
+    padding: 5.625rem 4.375rem 3.4375rem 4.375rem;
 }
 
 .hw::before,
