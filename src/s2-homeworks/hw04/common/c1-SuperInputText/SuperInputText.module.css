@@ -1,7 +1,15 @@
 .input:focus {
+    outline: none;
 }
 
 .input {
+    width: 100%;
+    line-height: 1.25;
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+    min-height: 2.25rem;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .inputWrapper {
@@ -11,6 +19,7 @@
 }
 
 .errorInput {
+    border: 1px solid #CC1439;
 }
 
 .errorInput:focus {

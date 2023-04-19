@@ -1,16 +1,31 @@
 .button {
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.3571428571428571em 1.714285714285714em;
+    color: #fff;
+    background-color: #0066CC;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    min-height: 2.142857142857143em;
 }
 
 .disabled {
+    opacity: 0.5;
+    color: #002E5C;
 }
 
 .secondary {
+    background-color: white;
+    color: #0066CC;
+    border: 1px solid #0066CC
 }
 
 .default {
 }
 
 .red {
+    background-color: #CC1439;
 }
 
 .default:hover {
