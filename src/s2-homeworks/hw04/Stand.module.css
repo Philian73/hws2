@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    flex: 0 1 23.25rem;
 }
 
 .buttons {
@@ -20,4 +22,26 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+}
+
+@media (max-width: 47.99875em) {
+    .stand {
+        flex-direction: column;
+    }
+
+    .inputs {
+        flex: none;
+        min-width: 100%;
+        gap: 24px;
+    }
+
+    .buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .checkboxes {
+        flex-direction: row;
+    }
 }
