@@ -20,3 +20,9 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+    max-width: 71.25em;
+    margin: 0 auto;
+    padding: 6rem 1rem 0 1rem;
+}
