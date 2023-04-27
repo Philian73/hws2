@@ -1,9 +1,6 @@
 .App {
-    padding: 3rem 0.95rem;
     --header_height: 60px;
     min-height: 100vh;
-    margin: 0 auto;
-    max-width: 71.25em;
 }
 
 .hw {
