@@ -1,5 +1,5 @@
 .sidebar {
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top: 0;
     left: -100%;
@@ -70,7 +70,6 @@
 
 @media (max-width: 29.24875em) {
     .sidebar {
-        padding: 0;
         padding: 10rem 0 0 0;
         display: flex;
         justify-content: center;
