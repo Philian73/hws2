@@ -5,6 +5,7 @@
 
 .editableSpanContainer {
     margin-bottom: 1.5rem;
+    max-width: 17.25rem;
 }
 
 .editableSpanContainer > div {
