@@ -1,5 +1,20 @@
 .buttonsContainer {
+    display: flex;
+    gap: 1.5rem;
 }
 
 .editableSpanContainer {
+    margin-bottom: 1.5rem;
+}
+
+.editableSpanContainer > div {
+    display: flex;
+    align-items: center;
+    gap: 0.625em;
+}
+
+.editableSpanContainer span {
+    font-weight: 500;
+    line-height: 1.25;
+    color: #0080FF;
 }
