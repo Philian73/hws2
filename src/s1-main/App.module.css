@@ -24,6 +24,10 @@
     padding: 5.625rem 4.375rem 3.4375rem 4.375rem;
 }
 
+.hw_6 {
+    padding: 2rem 4.375rem 14.375rem 4.375rem;
+}
+
 .hw::before,
 .hw::after {
     content: '';
