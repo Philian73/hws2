@@ -1,2 +1,13 @@
 .container {
+    display: flex;
+    max-width: 26.25em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 29.99375em) {
+    .container {
+        justify-content: center;
+    }
 }
