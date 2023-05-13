@@ -1,9 +1,6 @@
 .select {
-}
-
-.select:focus {
-}
-
-
-.option:hover {
+    min-width: 10.3125rem;
+    padding: 0.3571428571428571em 0.7142857142857143em;
+    font-size: 0.875rem;
+    font-family: inherit;
 }
