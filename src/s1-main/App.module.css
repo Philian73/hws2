@@ -32,6 +32,10 @@
     padding: 2rem 4.375rem 12.1875rem 4.375rem;
 }
 
+.hw_8 {
+    padding: 2rem 4.375rem 2.75rem 4.375rem;
+}
+
 .hw::before,
 .hw::after {
     content: '';
