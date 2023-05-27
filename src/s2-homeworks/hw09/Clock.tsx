@@ -30,8 +30,8 @@ function Clock() {
       setShow(false)
    }
 
-   const stringTime = date.toLocaleTimeString() || <br /> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01)
-   const stringDate = date.toLocaleDateString() || <br /> // день.месяц.год (01.02.2022)
+   const stringTime = date.toLocaleTimeString('ru-RU') || <br /> // часы24:минуты:секунды (01:02:03)/(23:02:03)/(24:00:00)/(00:00:01)
+   const stringDate = date.toLocaleDateString('ru-RU') || <br /> // день.месяц.год (01.02.2022)
 
    // день недели на английском, месяц на английском (https://learn.javascript.ru/intl#intl-datetimeformat)
    const stringDay = date.toLocaleDateString('en-US', { weekday: 'long' }) || <br />
