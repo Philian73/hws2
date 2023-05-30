@@ -1,3 +1,26 @@
 .loader {
-    /*свг и/или анимация*/
+    margin: 0.5625rem;
+    width: 5.625rem;
+    height: 5.625rem;
+    position: relative;
+    background: conic-gradient(from 90deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #512DE4 360deg);
+    border-radius: 50%;
+    animation: loaderAnim 0.4s linear infinite;
+}
+
+.loader:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+}
+
+@keyframes loaderAnim {
+    100% {
+        transform: rotate(360deg);
+    }
 }
