@@ -44,6 +44,10 @@
     padding: 2rem 4.375rem 12.75rem 4.375rem;
 }
 
+.hw_11 {
+    padding: 4.75rem 4.375rem 12.25rem 4.375rem;
+}
+
 .hw::before,
 .hw::after {
     content: '';

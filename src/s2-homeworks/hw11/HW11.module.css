@@ -1,8 +1,22 @@
 .container {
+    max-width: 250px;
 }
 
 .wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .number {
+    font-weight: 600;
+    width: 30px;
+    text-align: center;
+}
+
+.number:not(:first-child) {
+    margin-left: 0.8125rem;
+}
+
+.number:not(:last-child) {
+    margin-right: 0.8125rem;
 }
