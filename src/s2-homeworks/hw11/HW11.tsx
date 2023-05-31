@@ -15,7 +15,7 @@ export const HW11 = () => {
          setValue1(value[0])
          value[1] > value[0] && setValue2(value[1])
       } else {
-         setValue1(value)
+         value < value2 && setValue1(value)
       }
    }
 
