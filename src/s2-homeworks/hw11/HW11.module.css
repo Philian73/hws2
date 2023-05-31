@@ -1,22 +1,17 @@
 .container {
-    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
 }
 
 .wrapper {
     display: flex;
     align-items: center;
+    gap: 1.5625rem;
+    font-weight: 600;
 }
 
 .number {
-    font-weight: 600;
-    width: 30px;
-    text-align: center;
-}
-
-.number:not(:first-child) {
-    margin-left: 0.8125rem;
-}
-
-.number:not(:last-child) {
-    margin-right: 0.8125rem;
+    display: inline-block;
+    width: 1.0625rem;
 }
