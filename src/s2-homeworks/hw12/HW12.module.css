@@ -13,11 +13,21 @@
     --background: #212A34;
 }
 
+[data-theme='2'] .select {
+    background-color: #DDEEFF;
+}
+
+[data-theme='3'] .select {
+    color: #fff;
+    background-color: #212A34;
+}
+
 html {
     background-color: var(--background);
     color: var(--color);
 }
 
 .select {
-
+    display: block;
+    margin-top: 0.33rem;
 }
