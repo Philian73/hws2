@@ -20,6 +20,7 @@
     border-radius: 0.5rem 0.5rem 0.5rem 0;
     box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
     max-width: 50%;
+    color: #000;
 }
 
 .friendText:after {

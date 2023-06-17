@@ -10,10 +10,10 @@
 .textarea {
     resize: none;
     overflow: hidden;
-    border: none;
+    /*border: none;*/
     font-size: 0.875rem;
     padding: 0.8571428571428571em 1.714285714285714em;
-    background-color: #F5F7FB;
+    /*background-color: #F5F7FB;*/
     box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
     border-radius: 20px;
     flex: 1 1 auto;

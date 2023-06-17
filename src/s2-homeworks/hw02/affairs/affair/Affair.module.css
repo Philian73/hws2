@@ -20,7 +20,7 @@
 
     font-weight: 900;
     cursor: pointer;
-
+    color: inherit;
     padding: 0.875em;
     min-height: 100%;
 }

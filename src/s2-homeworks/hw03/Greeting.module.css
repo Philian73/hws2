@@ -73,7 +73,8 @@
 .text {
     font-size: 0.875rem;
     line-height: 1.214285714285714;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--color);
+    opacity: 0.5;
     margin-bottom: 0.6428571428571429em;
 }
 
