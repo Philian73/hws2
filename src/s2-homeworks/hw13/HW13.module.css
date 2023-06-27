@@ -21,6 +21,9 @@
 }
 
 .code {
+    font-size: 1.875rem;
+    font-weight: 500;
+    margin-bottom: 0.4em;
 }
 
 .text {
