@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import s2 from '../../s1-main/App.module.css'
 import s from './HW13.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
@@ -14,7 +14,7 @@ import errorUnknown from './images/error.svg'
 * 3 - сделать стили в соответствии с дизайном
 * */
 
-const HW13 = () => {
+export const HW13 = () => {
    const [code, setCode] = useState('')
    const [text, setText] = useState('')
    const [info, setInfo] = useState('')
@@ -32,7 +32,7 @@ const HW13 = () => {
       setInfo('...loading')
 
       axios
-         .post(url, {success: x})
+         .post(url, { success: x })
          .then((res) => {
             setCode('Код 200!')
             setImage(success200)
@@ -110,5 +110,3 @@ const HW13 = () => {
       </div>
    )
 }
-
-export default HW13
