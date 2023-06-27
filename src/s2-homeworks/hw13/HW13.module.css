@@ -1,16 +1,23 @@
 .buttonsContainer {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .responseContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 5.875rem;
 }
 
 .imageContainer {
 }
 
 .image {
+
 }
 
-.textContainer{
+.textContainer {
 }
 
 .code {
@@ -18,5 +25,6 @@
 
 .text {
 }
+
 .info {
 }
