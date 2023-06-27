@@ -1,7 +1,9 @@
 .buttonsContainer {
     display: flex;
-    gap: 1.5rem;
+    column-gap: 1.5rem;
+    row-gap: 0.5rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
 .responseContainer {
@@ -30,4 +32,30 @@
 }
 
 .info {
+}
+
+@media (max-width: 61.99875em) {
+    .responseContainer {
+        gap: 1rem;
+    }
+
+    .image {
+        max-width: 20rem;
+    }
+}
+
+@media (max-width: 39.75em) {
+    .responseContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imageContainer {
+        order: 2;
+    }
+
+    .textContainer {
+        order: 1;
+        text-align: center;
+    }
 }
