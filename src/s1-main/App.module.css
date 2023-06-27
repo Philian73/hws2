@@ -52,6 +52,11 @@
     padding: 2rem 4.375rem 15.25rem 4.375rem;
 }
 
+.hw_13 {
+    padding: 2rem 4.375rem 1.75rem 4.375rem;
+    min-height: 29.25rem;
+}
+
 .hw::before,
 .hw::after {
     content: '';
